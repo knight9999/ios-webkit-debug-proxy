@@ -1,6 +1,8 @@
 // Google BSD license http://code.google.com/google_bsd_license.html
 // Copyright 2012 Google Inc. wrightt@google.com
 
+#define WINVER 0x0501
+
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif

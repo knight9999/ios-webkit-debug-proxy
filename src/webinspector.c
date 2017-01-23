@@ -64,6 +64,7 @@ struct idevice_connection_private {
   void *ssl_data;
 };
 
+/*
 wi_status idevice_connection_get_fd(idevice_connection_t connection,
     int *to_fd) {
   if (!connection || !to_fd) {
@@ -89,6 +90,7 @@ wi_status idevice_connection_get_fd(idevice_connection_t connection,
   *to_fd = fd;
   return WI_SUCCESS;
 }
+*/
 
 int wi_connect(const char *device_id, char **to_device_id,
     char **to_device_name, int recv_timeout) {
